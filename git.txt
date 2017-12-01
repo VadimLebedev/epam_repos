@@ -1,2 +1,3 @@
 Hello, my name is Vadim LEBEDEV!
-I want to learn programming!!!!!!!
+I want to learn programming!
+
