@@ -1,2 +1,2 @@
-Hello, my name is Vadim!
-I I want to learn programming.
+Hello!
+My name is Vadim.
