@@ -7,16 +7,21 @@
 	},
 	"item": [
 		{
-			"name": "https://fakerestapi.azurewebsites.net/api/books/1",
+			"name": "https://fakerestapi.azurewebsites.net/api/books/2",
 			"request": {
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\"ID\":1,\n\"IDBook\":2,\n\"FirstName\":\"sample string 3\",\n\"LastName\": \"sample string 4\"}"
+					"raw": "{\r\n  \"ID\": 1,\r\n  \"Title\": \"sample string 2\",\r\n  \"Description\": \"sample string 3\",\r\n  \"PageCount\": 4,\r\n  \"Excerpt\": \"sample string 5\",\r\n  \"PublishDate\": \"2017-12-04T11:15:16.4765117+00:00\"\r\n}"
 				},
 				"url": {
-					"raw": "https://fakerestapi.azurewebsites.net/api/books",
+					"raw": "https://fakerestapi.azurewebsites.net/api/books/1",
 					"protocol": "https",
 					"host": [
 						"fakerestapi",
@@ -25,7 +30,8 @@
 					],
 					"path": [
 						"api",
-						"books"
+						"books",
+						"1"
 					]
 				},
 				"description": "GET\t"
