@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dbdbdb;
+}
+
+#main_header {
+  background-color: #56768F;
+  height: 200px;
+  position: relative;
+}
+
+.headtext {
+  width: 50%;
+  margin: 0 0 0 25%;
+  text-align: center;
+}
+
+#main_header h1 {
+  margin-top: 0px;
+  padding-top: 40px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: white;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+#main_header h3 {
+  color: #d0c6c6;
+
+}
+
+.req {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  border: 2px solid;
+  width: 204px;
+  border-color:rgba( 216, 212, 212, 0.98);
+  border-radius: 3px;
+}
+.req input {
+  margin-left: 15px;
+}
+
+.req button {
+  margin-left: 15px;
+  cursor: pointer;
+
+}
+.poisk {
+  position: absolute;
+  left: 78%;
+  top: 50px;
+}
+
+.poisk input {
+    height: 30px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #b7ceea;
+    background-color: #b7ceea;
+    color: white;
+}
+.poisk button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 30px;
+  border: none;
+  background: #7b93ab;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.poisk button img {
+    height: 29px;
+}
+
+.nav {
+  float: left;
+  width: 20%;
+  margin-top: 20px;
+}
+
+.nav ul {
+  padding-left: 0;
+  line-height: 50px
+}
+
+.nav ul li {
+  list-style: none;
+  font-size: 25px;
+  font-weight: 500;
+  color: #0a3f69;
+  padding-left: 20px;
+  margin-left: 20px;
+  width: 75%;
+}
+
+.nav ul li:hover {
+  background-color: #bbaeae;
+  font-size: 28px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sec1 {
+  margin: 35px auto;
+  width: 50%;
+  background-color: #f0eeed;
+  border-radius: 15px;
+}
+
+.head_audio_video {
+  padding: 20px 0 10px 20px;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 1px solid;
+  border-color: #56768F;
+  color: #0a3f69;
+}
+
+.art1 {
+  text-align: center;
+  line-height: 40px;
+  color: #0e516bf7;
+}
+
+.foot_audio_video {
+  padding: 10px 0 20px 20px;
+  border-top: 1px solid;
+  border-color: #56768F;
+  color: #586671;
+}
+
+.reklama {
+  float: right;
+  width: 17%;
+  height: 800px;
+  background-color: white;
+  margin-top: 35px;
+  margin-right: 30px;
+}
+
+.reklamka1 {
+  height: 300px;
+  border-bottom: 1px solid;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  padding-top: 100px;
+}
+
+.reklamka2 {
+  padding-top: 100px;
+  height: 300px;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+#footer {
+  height: 60px;
+  background-color: grey;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
