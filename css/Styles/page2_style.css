@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 2px solid;
+  flex: 1;
+  order: 1;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 15px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 20px 0 20px 20px;
+}
+
+form {
+  position: absolute;
+  top: 30px;
+  right: 15%;
+}
+
+form input {
+  height: 30px;
+  width: 250px;
+  padding-left: 40px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+form button {
+  position: relative;
+  left: 39px;
+  top: 3px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  right: 40px;
+  top: 25px;
+}
+
+.icon img {
+  margin-left: 20px;
+  padding: 3px;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: #BFBFBF;
+  cursor: pointer;
+}
+
+footer {
+  border-top: 2px solid;
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  flex: 1;
+  order: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category {
+  flex-basis: 150px;
+  font-size: 14px;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.category img {
+  height: 100px;
+  width: 130px;
+}
+.category a {
+  margin-left: 7px;
+}
+.number {
+  display: block;
+  margin-left: 7px;
+  padding-top: 4px;
+  color: #BFBFBF;
+}
+
+.main_flex {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  order: 2;
+  min-height: 700px;
+
+}
+
+.content_center_flex {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main_content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  border-right: 2px solid;
+  padding-left: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding-top: 30px;
+
+}
+
+.nav ul li {
+  font-size: 25px;
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.nav ul li::before {
+	content: "";
+	position: absolute;
+	top: 30%;
+	left: -55px;
+	width: 48px;
+	height: 48px;
+	transform: translate(0 , -50%);
+  background: url(../img/app.png);
+}
+
+#ListView{
+  position: absolute;
+  font-size: 18px;
+  top: 13%;
+  right: 8%;
+}

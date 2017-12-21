@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="VadimLebedev" content="https://github.com/VadimLebedev/epam_repos">
+  <meta charset="utf-8">
+  <title>Светофор</title>
+  <style type="text/css">
+    .main{
+      height: 300px;
+      width: 100px;
+      background-color: black;
+      margin: 300px auto;
+    }
+    .red{
+      height: 100px;
+      width: 100px;
+      background-color: red;
+      border-radius: 50px;
+      opacity: 0;
+      animation-name: red;
+      animation-duration: 5s;
+      animation-delay: 11.5s;
+    }
+    .yellow{
+      height: 100px;
+      width: 100px;
+      background-color: yellow;
+      border-radius: 50px;
+      opacity: 0;
+      animation-name: yellow;
+      animation-duration: 2s;
+      animation-delay: 10s;
+    }
+    .green{
+      height: 100px;
+      width: 100px;
+      background-color: green;
+      border-radius: 50px;
+      opacity: 0;
+      animation-name: green;
+      animation-duration: 10s;
+    }
+
+      @keyframes green {
+      0% {opacity: 1; }
+      50% {opacity: 1; }
+      65% {opacity: 1;}
+      70% {opacity: 0;}
+      75% {opacity: 1;}
+      80% {opacity: 0;}
+      85% {opacity: 1;}
+      90% {opacity: 0;}
+      95% {opacity: 1;}
+      100% {opacity: 0;}
+    }
+
+    @keyframes yellow {
+      0% {opacity: 0;}
+      30% {opacity: 1;}
+      50% {opacity: 1;}
+      80% {opacity: 1;}
+      100% {opacity: 0;}
+    }
+    @keyframes red {
+      0% {opacity: 0;}
+      10% {opacity: 1;}
+      100% {opacity: 1;}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="red">
+    </div>
+    <div class="yellow">
+    </div>
+    <div class="green">
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+html {height: 100%;}
+* html body {height: 100%;}
+body {
+ min-height: 100%;
+ position: relative;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+header {
+border-bottom: 2px solid;
+}
+.logo{
+  width: 150px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 15px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 20px 0 20px 20px;
+}
+
+form {
+  position: absolute;
+  top: 30px;
+  right: 15%;
+}
+form input {
+  height:30px;
+  width: 250px;
+  padding-left: 40px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+form button {
+position: relative;
+left: 39px;
+top: 3px;
+background-color: white;
+border: none;
+cursor: pointer;
+}
+
+.icon {
+position: absolute;
+right: 40px;
+top: 25px;
+}
+.icon img {
+  margin-left: 20px;
+  padding: 3px;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: #BFBFBF;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid;
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  text-align: center;
+}
+.category{
+  flex-basis: 215px;
+  height: 180px;
+  font-size: 20px;
+  margin-top: 110px;
+  text-align: center;
+}
+.ssilka {
+}
+.number {
+  margin-left: 5px;
+  color: #BFBFBF;
+}
+.content_center_flex{
+  width: 80%;
+  margin: 0 auto;
+
+}
+.main_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
